@@ -1,0 +1,22 @@
+{
+  "name": "spaceship",
+  "version": "0.0.1-dev",
+  "description": "An isomorphic Node.js/browser client library for Spaceship Invest (https://www.spaceshipinvest.com.au/)",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js"
+  },
+  "author": "Jeremy Short <ijexah@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/isomorphic-fetch": "0.0.34",
+    "@types/node": "^10.12.24",
+    "@types/uuid": "^3.4.4",
+    "typescript": "^3.3.3"
+  }
+}
